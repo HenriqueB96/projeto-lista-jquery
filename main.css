@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+}
+
+#background-body {
+    height: auto;
+    width: 100%;
+
+}
+
+header, h1{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+}
+
+
+.container{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+
+}
+
+input, button, li{
+    font-size: 35px;
+    padding: 16px;
+}
+
+button {
+    cursor: pointer;
+    border: 2px solid red;
+    background-color: rgba(0,0,0,0.1);
+}
+
+button:hover{
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+
+}
+
+
+input {
+    background-color: rgba(0,0,0,0.1);
+}
+
+.remover-tarefa {
+    text-decoration: line-through red ;
+    cursor: pointer;
+}
